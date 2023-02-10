@@ -1,0 +1,194 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+.navbar{
+   display:flex;
+   justify-content: space-between;
+   box-shadow:  20px 20px 50px rgba(236, 91, 115, 0.2);
+   padding:15px;
+   background-color: aliceblue;
+   border-radius: 15px;
+   position: sticky;
+   top:0;
+   width:100vw;
+   margin: auto;  
+   z-index: 1;
+}
+.nav-options li{
+  float: left;
+  list-style: none;
+}
+.nav-options ul a{
+  text-decoration: none;
+  margin:10px;
+  font-size: 18px;
+}
+.Join-button{
+  /* height:100%; */
+  width: 10vw;
+  background-color: rgba(236, 91, 115, 0.6);
+  font-size:1em;
+}
+.firstpage{
+  height:100vh;
+  width:100%;
+  margin: auto;
+  background-image: url("/pexels-binyamin-mellish-17840.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+.firstpage #msg1{
+  color: white;
+  font-size:7vh;
+  text-align: center;
+}
+.firstpage #msg2{
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+}
+.firstpage .messages div{
+  text-align:center;
+}
+.firstpage .messages button{
+  margin: 15px;
+  width: 10vw;
+  border-radius: 15px;
+  background-color: rgb(218, 127, 142);
+  color: antiquewhite;
+  font-size: 3vh;
+}
+.informnpage{
+  position: relative;
+  bottom:100px;
+}
+.Info-page1{
+   width:90%;
+   height:fit-content;
+   margin:auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+.Info-page1 img{
+   width:100%;
+   height:100%;
+}
+.information{
+  width:90vh;
+  height:80vh;
+  display: inline;
+  background-color: white;
+}
+.information div{
+  /* width:50vh; */
+  text-align: center;
+  position: relative;
+  top:30vh;
+}
+.information button{
+   width:20vh;
+   height:5vh;
+   margin:3vh;
+   font-size: 2vh;
+}
+.Info-page2{
+  width:90%;
+  height:fit-content;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.Info-page2 img{
+  width:90vh;
+  height:80vh;
+}
+.secondpage{
+  border: 2px solid red;
+  height: fit-content;
+  background-color: rgb(247, 222, 186);
+}
+.facilites{
+  width:450px;
+  text-align: center;
+  margin: auto;
+  padding:25px;
+}
+.facilities button{
+  width:20vh;
+  height:5vh;
+  margin:3vh;
+}
+.facilities-img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.facilities-img div{
+  display: inline;
+  margin: 15px;
+}
+.facilities-img div img{
+  width:60vh;
+  height: 50vh;
+}
+.facilities-img div img:hover{
+  border:15px solid  rgb(247, 222, 186);
+
+}
+.secondpage button{
+  width:20vh;
+  height:5vh;
+  margin:3vh;
+  font-size:2vh ;
+}
+.thirdpage{
+  height:fit-content;
+  padding: 15px;
+  display:flex;
+  justify-content: space-between;
+}
+.General-info{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  display:inline;
+  padding:20px;
+}
+.General-info div a{
+  margin:1vh;
+}
+.logincredentials{
+  display:flex;
+  flex-direction: column;
+  width:55vh;
+}
+input{
+  width:200px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  margin: 10px;
+}
+.navigationoption{
+  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  padding :100px;
+  font-size: 20px;
+}
+.btn{
+  width:30vh;
+  margin:10px;
+  background-color:rgb(218, 127, 142); 
+  border: none;
+  height: 25px;
+  border-radius: 20px;
+}
+@media (max) {
+  
+}
